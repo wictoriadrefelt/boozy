@@ -41,7 +41,7 @@ function init_alternative_payment() {
             
             add_action( 'woocommerce_update_options_payment_gateways_' . $this->id, array( $this, 'process_admin_options' ) );
             add_action('woocommerce_thank_you_' . $this->id, array( $this, 
-            'thank_you_page'));
+            'thank_you_redirect'));
            
         
          }
@@ -105,8 +105,7 @@ function init_alternative_payment() {
 
         $order->update_status('on-hold', 'awaiting bootlecaps');
 
-        $this->clear_payment_with_api(); 
-
+    
         wc_reduce_stock_levels( $order_id );
 
 
@@ -118,11 +117,9 @@ function init_alternative_payment() {
 
     }
 
-    public function clear_payment_with_api() {
+    
 
-    }
-
-    public function thank_you_page(){
+    public function thank_you_redirect(){
         if($this->instructions){
             echo wpautop( $this->instructions); 
 
