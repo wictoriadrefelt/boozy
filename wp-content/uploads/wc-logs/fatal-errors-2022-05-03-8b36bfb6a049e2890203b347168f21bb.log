@@ -1,0 +1,30 @@
+2022-05-03T07:24:21+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\MAMP\htdocs\projekt-webbshop2\wp-content\plugins\google-listings-and-ads\vendor\google\apiclient-services\src\ShoppingContent\Resource\Returnaddress.php on line 119
+
+2022-05-03T08:13:44+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php on line 41
+
+2022-05-03T08:18:32+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php on line 41
+
+2022-05-03T08:18:53+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php on line 41
+
+2022-05-03T08:19:02+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php on line 41
+
+2022-05-03T08:36:04+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php on line 49
+
+2022-05-03T08:36:09+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting end of file in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php on line 49
+
+2022-05-03T08:39:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_meta_by_id() in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php:6
+Stack trace:
+#0 C:\MAMP\htdocs\projekt-webbshop2\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\projekt-webbshop2\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\projekt-webbshop2\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php on line 6
+
+2022-05-03T08:39:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_meta_by_id() in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php:6
+Stack trace:
+#0 C:\MAMP\htdocs\projekt-webbshop2\wp-includes\template-loader.php(106): include()
+#1 C:\MAMP\htdocs\projekt-webbshop2\wp-blog-header.php(19): require_once('C:\\MAMP\\htdocs\\...')
+#2 C:\MAMP\htdocs\projekt-webbshop2\index.php(17): require('C:\\MAMP\\htdocs\\...')
+#3 {main}
+  thrown in C:\MAMP\htdocs\projekt-webbshop2\wp-content\themes\boozy\single.php on line 6
+
